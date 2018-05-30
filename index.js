@@ -35,7 +35,7 @@ function recalculateData(dataList, range, method = "minmax") {
         }
         return recalculatedData
     }
-    else if (method == "third") {
+    else if (method == "mostoccurring") {
         //While original array not empty do checking and filtering
         while (dataList.length > 0) {
             var firstItem = dataList[0];
